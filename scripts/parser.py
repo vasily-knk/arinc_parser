@@ -2,6 +2,8 @@ import re
 import os
 import json
 
+from arinc_types import FieldDesc, RecordDesc, ArincJsonEncoder
+
 records_codes = {
     1: ('', []),
     2: ('VHF NAVAID', ['D']),
@@ -34,32 +36,6 @@ records_codes = {
     29: ('GLS', ['PT']),
     30: ('Alternate', ['RA']),
 }
-
-
-class AutoJSONable:
-    pass
-
-
-class FieldDesc(AutoJSONable):
-    def __init__(self, min_pos, max_pos, description, format_code):
-        self.min_pos = min_pos
-        self.max_pos = max_pos
-        self.description = description
-        self.format_code = format_code
-
-
-class RecordDesc(AutoJSONable):
-    def __init__(self, codes, description, conts):
-        self.codes = codes
-        self.description = description
-        self.conts = conts
-
-
-class MyJsonEncoder(json.JSONEncoder):
-    def default(self, o):
-        if isinstance(o, AutoJSONable):
-            return o.__dict__
-        return json.JSONEncoder.default(self, o)
 
 
 class FileParser:
@@ -136,4 +112,4 @@ if __name__ == '__main__':
         info[i] = parse_file(i, path)
 
     with open('dump.txt', 'wt') as out_file:
-        out_file.write(json.dumps(info, cls=MyJsonEncoder, sort_keys=True, indent=4, separators=(',', ': ')))
+        out_file.write(json.dumps(info, cls=ArincJsonEncoder, sort_keys=True, indent=4, separators=(',', ': ')))
