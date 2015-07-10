@@ -1,0 +1,51 @@
+[1]
+
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 10	FIR/UIR Identifier (4)	5.116
+11 thru 14	FIR/UIR Address (4)	5.151
+15	FIR/UIR Indicator (1)	5.117
+16 thru 19	Sequence Number (4)	5.12
+20	Continuation Record No. (1)	5.16
+21 thru 24	Adjacent FIR Identifier (4)	5.116
+25 thru 28	Adjacent UIR Identifier (4)	5.116
+29	Reporting Units Speed (1)	5.122
+30	Reporting Units Altitude (1)	5.123
+31	Entry Report (1)	5.124
+32	Blank (Spacing) (1)	
+33 thru 34	Boundary Via (2)	5.118
+35 thru 43	FIR/UIR Latitude (9)	5.36
+44 thru 53	FIR/UIR Longitude (10)	5.37
+54 thru 62	Arc Origin Latitude (9)	5.36
+63 thru 72	Arc Origin Longitude (10)	5.37
+73 thru 76	Arc Distance (4)	5.119
+77 thru 80	Arc Bearing (4)	5.120
+81 thru 85	FIR Upper Limit (5)	5.121
+86 thru 90	UIR Lower Limit (5)	5.121
+91 thru 95	UIR Upper Limit (5)	5.121
+96 thru 97	Cruise Table Ind (2)	5.134
+98	Reserved (Expansion) (1)	
+99 thru 123	FIR/UIR Name (25)	5.125
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

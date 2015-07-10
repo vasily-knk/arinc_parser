@@ -1,0 +1,68 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (Spacing) (1)	
+7 thru 10	Airport Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 18	MSA Center (5)	5.144
+19 thru 20	ICAO Code (2)	5.14
+21	Section Code (1)	5.4
+22	Subsection Code (1)	5.5
+23	Multiple Code (1)	5.130
+24 thru 38	Reserved (Expansion) (15)	
+39	Continuation Record No. (1)	5.16
+40 thru 42	Reserved (Spacing) (3)	
+43 thru 48	Sector Bearing (6)	5.146
+49 thru 51	Sector Altitude (3)	5.147
+52 thru 53	Sector Radius (2)	5.145
+54 thru 59	Sector Bearing (6)	5.146
+60 thru 62	Sector Altitude (3)	5.147
+63 thru 64	Sector Radius (2)	5.145
+65 thru 70	Sector Bearing (6)	5.146
+71 thru 73	Sector Altitude (3)	5.147
+74 thru 75	Sector Radius (2)	5.145
+76 thru 81	Sector Bearing (6)	5.146
+82 thru 84	Sector Altitude (3)	5.147
+85 thru 86	Sector Radius (2)	5.145
+87 thru 92	Sector Bearing (6)	5.146
+93 thru 95	Sector Altitude (3)	5.147
+96 thru 97	Sector Radius (2)	5.145
+98 thru 103	Sector Bearing (6)	5.146
+104 thru 106	Sector Altitude (3)	5.147
+107 thru 108	Sector Radius (2)	5.145
+109 thru 114	Sector Bearing (6)	5.146
+115 thru 117	Sector Altitude (3)	5.147
+118 thru 119	Sector Radius (2)	5.145
+120	Magnetic/True Indicator (1)	5.165
+121 thru 123	Reserved (Expansion) (3)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+1 thru 38	Field as on Primary Records	
+39	Continuation Record No. (1)	5.16
+40	Reserved (Spacing) (1)	
+41 thru 109	Notes (69)	5.61
+110 thru 123	Reserved (Expansion) (14)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

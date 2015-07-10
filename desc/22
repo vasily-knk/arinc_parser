@@ -1,0 +1,78 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (Spacing( (1)	
+7 thru 10	Airport Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code4 (1)	5.5
+14 thru 17	MLS Identifier (4)	5.44
+18	MLS Category (1)	5.80
+19 thru 21	Blank (Spacing) (3)	
+22	Continuation Record No. (1)	5.16
+23 thru 25	Channel (3)	5.166
+26 thru 27	Blank (Spacing) (2)	
+28 thru 32	Runway Identifier (5)	5.46
+33 thru 41	Azimuth Latitude (9)	5.36
+42 thru 51	Azimuth Longitude (10)	5.37
+52 thru 55	Azimuth Bearing (4)	5.167
+56 thru 64	Elevation Latitude (9)	5.36
+65 thru 74	Elevation Longitude (10)	5.37
+75 thru 78	Azimuth Position (4)	5.48
+79	Azimuth Position Reference (1)	5.49
+80 thru 83	Elevation Position (4)	5.50
+84 thru 86	Azimuth Proportional Angle Right (3)	5.168
+87 thru 89	Azimuth Proportional Angle Left (3)	5.168
+90 thru 92	Azimuth Coverage Right (3)	5.172
+93 thru 95	Azimuth Coverage Left (3)	5.172
+96 thru 98	Elevation Angle Span (3)	5.169
+99 thru 103	Magnetic Variation (5)	5.39
+104 thru 108	EL Elevation (5)	5.74
+109 thru 112	Nominal Elevation Angle (4)	5.173
+113 thru 115	Minimum Glide Path Angle (3)	5.52
+116 thru 123	Reserved (Expansion) (8)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 21	Field as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23 thru 27	Blank (Spacing) (5)	
+28 thru 32	Facility Characteristics (5)	5.93
+33 thru 41	Back Azimuth Latitude (9)	5.36
+42 thru 51	Back Azimuth Longitude (10)	5.37
+52 thru 55	Back Azimuth Bearing (4)	5.167
+56 thru 64	MLS Datum Point Latitude (9)	5.36
+65 thru 74	MLS Datum Point Longitude (10)	5.37
+75 thru 78	Back Azimuth Position (4)	5.48
+79	Back Azimuth Position Reference (1)	5.49
+80 thru 83	Blank (Spacing) (4)	
+84 thru 86	Back Azimuth Proportional Sector Right (3)	5.168
+87 thru 89	Back Azimuth Proportional Sector Left (3)	5.168
+90 thru 92	Back Azimuth Coverage Right (3)	5.172
+93 thru 95	Back Azimuth Coverage Left (3)	5.172
+96 thru 100	Back Azimuth True Bearing (5)	5.94
+101	Back Azimuth Bearing Source (1)	5.95
+102 thru 106	Azimuth True Bearing (5)	5.94
+107	Azimuth Bearing Source (1)	5.95
+108 thru 109	Glide Path Height at Landing Threshold (2)	5.67
+110 thru 123	Reserved (Expansion) (14)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

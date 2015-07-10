@@ -1,0 +1,49 @@
+[1]
+
+1	Record Type (1)	5.2
+2 thru 4	Blank (Spacing) (3)	
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 8	Cruise Table Identifier (2)	5.134
+9	Sequence Number (1)	5.12
+10 thru 28	Blank (Spacing) (19)	
+29 thru 32	Course From (4)	5.135
+33 thru 36	Course To (4)	5.135
+37	Mag/True (1)	5.165
+38 thru 39	Blank (Spacing) (2)	
+40 thru 44	Cruise Level From (5)	5.136
+45 thru 49	Vertical Separation (5)	5.137
+50 thru 54	Cruise Level To (5)	5.136
+55 thru 59	Cruise Level From (5)	5.136
+60 thru 64	Vertical Separation (5)	5.137
+65 thru 69	Cruise Level To (5)	5.136
+70 thru 74	Cruise Level From (5)	5.136
+75 thru 79	Vertical Separation (5)	5.137
+80 thru 84	Cruise Level To (5)	5.136
+85 thru 89	Cruise Level From (5)	5.136
+90 thru 94	Vertical Separation (5)	5.137
+95 thru 99	Cruise Level To (5)	5.136
+100 thru 123	Reserved (Expansion) (24)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

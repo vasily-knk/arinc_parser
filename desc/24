@@ -1,0 +1,81 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 13	Blank (spacing) (7)	
+14 thru 23	Route Identifier (10)	5.8
+24 thru 25	Preferred Route Use Ind (2)	5.220
+26 thru 29	Sequence Number (4)	5.12
+30 thru 38	Blank (spacing) (9)	
+39	Continuation Record No. (1)	5.16
+40 thru 44	To Fix Identifier (5)	5.83
+45 thru 46	ICAO Code (2)	5.14
+47	Section Code (1)	5.4
+48	Subsection Code (1)	5.5
+49 thru 51	VIA Code (3)	5.77
+52 thru 57	SID/STAR/AWY Ident (6) (See Note 1)	5.78
+58 thru 60	AREA Code (3)	5.3
+61	Level (1)	5.19
+62	Route Type (1)	5.7
+63 thru 67	Initial Airport/Fix (5)	5.194
+68 thru 69	ICAO Code (2)	5.14
+70	Section Code (1)	5.4
+71	Subsection Code (1)	5.5
+72 thru 76	Terminus Airport/Fix (5)	5.194
+77 thru 78	ICAO Code (2)	5.14
+79	Section Code (1)	5.4
+80	Subsection Code (1)	5.5
+81 thru 85	Minimum Altitude (5)	5.30
+86 thru 90	Maximum Altitude (5)	5.127
+91	Time Code (1)	5.131
+92 thru 93	Aircraft Use Group (2)	5.221
+94	Direction Restriction (1)	5.115
+95	Altitude Description (1)	5.29
+96 thru 100	Altitude One (5)	5.30
+101 thru 105	Altitude Two (5)	5.30
+106 thru 123	Reserved (Expansion) (18)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+
+[2]
+1 thru 38	Fields as on Primary Records	
+39	Continuation Record No. (1)	5.16
+40	Reserved Spacing (1)	
+41	Time Code (1)	5.131
+42	Time Indicator	5.138
+43 thru 52	Time of Operation (10)	5.195
+53 thru 62	Time of Operation (10)	5.195
+63 thru 72	Time of Operation (10)	5.195
+73 thru 82	Time of Operation (10)	5.195
+83 thru 92	Time of Operation (10)	5.195
+93 thru 102	Time of Operation (10)	5.195
+103 thru 112	Time of Operation (10)	5.195
+113 thru 123	Reserved (Expansion) (11)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 38	Fields as on Primary Records	
+39	Continuation Record No. (1)	5.16
+40	Reserved (spacing) (1)	
+41 thru 109	Notes (69)	5.61
+110 thru 123	Reserved (Expansion) (14)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

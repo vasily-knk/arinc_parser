@@ -1,0 +1,44 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (Spacing) (1)	
+7 thru 10	Airport ICAO Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 18	Gate Identifier (5)	5.56
+19 thru 21	Blank (Spacing) (3)	
+22	Continuation Record No. (1)	5.16
+23 thru 32	Blank (Spacing) (10)	
+33 thru 41	Gate Latitude (9)	5.36
+42 thru 51	Gate Longitude (10)	5.37
+52 thru 98	Reserved (Expansion) (47)	
+99 thru 123	Name (25)	5.60
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 21	Field as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Reserved (Spacing) (1)	
+24 thru 92	Notes (69)	5.61
+93 thru 123	Reserved (Expansion) (59)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

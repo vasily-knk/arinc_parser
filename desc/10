@@ -1,0 +1,70 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (spacing) (1)	
+7 thru 10	Airport ICAO Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 18	Runway Identifier (5)	5.46
+19 thru 21	Blank (spacing) (3)	
+22	Continuation Record No. (1)	5.16
+23 thru 27	Runway Length (5)	5.57
+28 thru 31	Runway Magnetic Bearing (4)	5.58
+32	Blank (spacing) (1)	
+33 thru 41	Runway Latitude (9)	5.36
+42 thru 51	Runway Longitude (10)	5.37
+52 thru 56	Runway Gradient (5)	5.212
+57 thru 66	Blank (spacing) (10)	
+67 thru 71	Landing Threshold Elevation (5)	5.68
+72 thru 75	Displaced Threshold Distance (4)	5.69
+76 thru 77	Threshold Crossing Height (2)	5.67
+78 thru 80	Runway Width (3)	5.109
+81	Blank (spacing) (1)	
+82 thru 85	Localizer/MLS/ GLS Ref Path Identifier (4)	5.44
+86	Localizer/ MLS/ GLS Category/ Class(1)	5.80
+87 thru 90	Stopway (4)	5.79
+91 thru 94	Second Localizer/ MLS/ GLS Ref Path Ident (4)	5.44
+95	Second Localizer/ MLS/ GLS Category/ Class (1)	5.80
+96 thru 101	Reserved (Expansion) (6)	
+102 thru 123	Runway Description (22)	5.59
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Reserved (Spacing) (1)	
+24 thru 92	Notes (69)	5.61
+93 thru 123	Reserved (Expansion) (31)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Application Type (1)	5.91
+24 thru 51	Reserved (Spacing) (28)	
+52 thru 56	Runway True Bearing (5)	5.94
+57	True Bearing Source (1)	5.95
+58 thru 65	Reserved (Spacing) (8)	
+66	TDZE Location (1)	5.98
+67 thru 71	Touchdown Zone Elevation (5)	5.97
+72 thru 123	Reserved (Expansion) (52)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

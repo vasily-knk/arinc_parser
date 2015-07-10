@@ -1,0 +1,56 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 11	Alternate Related Airport or Fix (5)	5.75
+12 thru 13	Alternate Related ICAO Code (2)	5.14
+14	Alternate Related Section Code (1)	5.4
+15	Alternate Related Subsection Code (1)	5.5
+16 thru 17	Alternate Record Type (2)	5.250
+18 thru 19	Blank (spacing) (2)	
+20 thru 22	Distance to Alternate (3)	5.251
+23	Alternate Type (1)	5.252
+24 thru 33	Primary Alternate Identifier (10)	5.253
+34 thru 35	Blank (spacing) (2)	
+36 thru 38	Distance to Alternate (3)	5.251
+39	Alternate Type (1)	5.252
+40 thru 49	Additional Alternate Identifier One (10)	5.253
+50 thru 51	Blank (spacing) (2)	
+52 thru 54	Distance to Alternate (3)	5.251
+55	Alternate Type (1)	5.252
+56 thru 65	Additional Alternate Identifier Two (10)	5.253
+66 thru 67	Blank (spacing) (2)	
+68 thru 70	Distance to Alternate (3)	5.251
+71	Alternate Type (1)	5.252
+72 thru 81	Additional Alternate Identifier Three (10)	5.253
+82 thru 83	Blank (spacing) (2)	
+84 thru 86	Distance to Alternate (3)	5.251
+87	Alternate Type (1)	5.252
+88 thru 97	Additional Alternate Identifier Four (10)	5.253
+98 thru 99	Blank (spacing) (2)	
+100 thru 102	Distance to Alternate (3)	5.251
+103	Alternate Type (1)	5.252
+104 thru 113	Additional Alternate Identifier Five (10)	5.253
+114 thru 123	Reserved (expansion) (10)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

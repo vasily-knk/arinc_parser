@@ -1,0 +1,52 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (1)	
+7 thru 10	Airport or Heliport Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection code (1)	5.5
+14 thru 17	GLS Ref Path Identifier (4)	5.44
+18	GLS Category (1)	5.80
+19 thru 21	Blank (3)	
+22	Continuation Number (1)	5.16
+23 thru 27	GLS Channel (5)	5.244
+28 thru 32	Runway Identifier (5)	5.46
+33 thru 51	Blank(19)	
+52 thru 55	GLS Approach Bearing (4) (Note 1)	5.47
+56 thru 64	Station Latitude (9)	5.36
+65 thru 74	Station Longitude (10)	5.37
+75 thru 78	GLS Station ident (4)	5.243
+79 thru 83	Blank (5)	
+84 thru 85	Service Volume Radius (2)	5.245
+86 thru 87	TDMA Slots (2)	5.246
+88 thru 90	GLS Approach Slope (3)	5.52
+91 thru 95	Magnetic Variation (5)	5.39
+96 thru 97	Reserved (2)	
+98 thru 102	Station Elevation (5)	5.74
+103 thru 105	Datum Code (3)	5.197
+106 thru 108	Station Type (3)	5.247
+109 thru 110	Blank (2)	
+111 thru 115	Station Elevation WGS 84 (5)	5.248
+116 thru 123	Blank (8)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

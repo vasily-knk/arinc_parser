@@ -1,0 +1,99 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 13	Blank (Spacing) (7)	
+14 thru 18	Route Identifier (5)	5.8
+19	Reserved (1)	Note 1
+20 thru 25	Blank (Spacing) (6)	
+26 thru 29	Sequence Number (4)	5.12
+30 thru 34	Fix Identifier (5)	5.13
+35 thru 36	ICAO Code (2)	5.14
+37	Section Code (1)	5.4
+38	Subsection (1)	5.5
+39	Continuation Record No. (1)	5.16
+40 thru 43	Waypoint Description Code (4)	5.17
+44	Boundary Code (1)	5.18
+45	Route Type (1)	5.7
+46	Level (1)	5.19
+47	Direction Restriction (1)	5.115
+48 thru 49	Cruise Table Indicator (2)	5.134
+50	EU Indicator (1)	5.164
+51 thru 54	Recommended NAVAID (4)	5.23
+55 thru 56	ICAO Code (2)	5.14
+57 thru 59	RNP (3)	5.211
+60 thru 62	Blank (Spacing) (3)	
+63 thru 66	Theta (4)	5.24
+67 thru 70	Rho (4)	5.25
+71 thru 74	Outbound Magnetic Course (4)	5.26
+75 thru 78	Route Distance From (4)	5.27
+79 thru 82	Inbound Magnetic Course (4)	5.28
+83	Blank (Spacing) (1)	
+84 thru 88	Minimum Altitude (5)	5.30
+89 thru 93	Minimum Altitude (5)	5.30
+94 thru 98	Maximum Altitude (5)	5.127
+99 thru 101	Fix Radius Transition Indicator (3)	5.254
+102 thru 123	Reserved (Expansion) (23)	
+124 thru 128	File Record No (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 38	Fields as on Primary Records	
+39	Continuation Record No. (1)	5.16
+40	Reserved (Spacing) (1)	
+41 thru 109	Notes (69)	5.61
+110 thru 23	Reserved (Expansion) (14)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+
+1 thru 38	Fields as on Primary Records	
+39	Continuation Record No. (1)	5.16
+40	Application Type (1)	5.91
+41	Start/End Indicator (1)	5.152
+42 thru 52	Start/End Date (11)	5.153
+53 thru 66	Blank (Spacing) (14)	
+67 thru 68	Restr. Airspace ICAO Code (2)	5.14
+69	Restr. Airspace Type (1)	5.128
+70 thru 79	Restr. Airspace Designation (10)	5.129
+80	Restr. Airspace Multiple Code (1)	5.130
+81 thru 82	Restr. Airspace ICAO Code (2)	5.14
+83	Restr. Airspace Type (1)	5.12
+84 thru 93	Restr. Airspace Designation (10)	5.129
+94	Restr. Airspace Multiple Code (1)	5.130
+95 thru 96	Restr. Airspace ICAO Code (2)	5.14
+97	Restr. Airspace Type (1)	5.12
+98 thru 107	Restr. Airspace Designation (10)	5.129
+108	Restr. Airspace Multiple Code (1)	5.130
+109 thru 110	Restr. Airspace ICAO Code (2)	5.14
+111	Restr. Airspace Type (1)	5.128
+112 thru 121	Restr. Airspace Designation (10)	5.129
+122	Restr. Airspace Multiple Code (1)	5.130
+123	Restr. Airspace Link Continuation (1)	5.174
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+
+1 thru 38	Fields as on Primary Records	
+39	Continuation Record No. (1)	5.16
+40 thru 123	Fields as on Primary Records	5.31
+122 thru 128	Field Record No. (5)	5.32
+129 thru 132	Cycle Date (4)	
+
+[5]
+
+
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

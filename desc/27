@@ -1,0 +1,107 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (spacing) (1)	
+7 thru 10	Airport Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 19	SID/STAR/Approach Identifier (6)	5.9, 5.10
+20	Procedure Type (1)	5.230
+21 thru 25	Runway Transition Identifier (5)	5.11
+26 thru 30	Runway Transition Fix (5)	5.13
+31 thru 32	ICAO Code (2)	5.14
+33	Section Code (1)	5.4
+34	Subsection Code (1)	5.5
+35 thru 37	Runway Transition Along Track  Distance (3)	5.231
+38 thru 42	Common Segment Transition Fix (5)	5.13
+43 thru 44	ICAO Code (2)	5.14
+45	Section Code (1)	5.4
+46	Subsection Code (1)	5.5
+47 thru 49	Common Segment Along Track Distance (3)	5.231
+50 thru 54	Enroute Transition Identifier (5)	5.11
+55 thru 59	Enroute Transition Fix (5)	5.13
+60 thru 61	ICAO Code (2)	5.14
+62	Section Code (1)	5.4
+63	Subsection Code (1)	5.5
+64 thru 66	Enroute Transition Along Track  Distance (3)	5.231
+67 thru 69	Sequence Number (3)	5.12
+70	Continuation Number (1)	5.16
+71 thru 74	Number of Engines (4)	5.232
+75	Turboprop/Jet Indicator (1)	5.233
+76	RNAV Flag (1)	5.234
+77	ATC Weight Category (1)	5.235
+78 thru 84	ATC Identifier (7)	5.236
+85	Time Code (1)	5.131
+86 thru 100	Procedure Description (15)	5.237
+101 thru 102	Leg Type Code (2)	5.238
+103	Reporting Code (1)	5.239
+104 thru 107	Initial Departure Magnetic Course (4)	5.26
+108	Altitude Description (1)	5.29
+109 thru 111	Altitude (3)	5.240
+112 thru 114	Altitude (3)	5.240
+115 thru 117	Speed Limit (3)	5.72
+118 thru 119	Initial Cruise Table (2)	5.134
+120 thru 123	Blank (spacing) (4)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 69	Fields as on Primary Records	
+70	Continuation Number (1)	5.16
+71	Application Number (1)	5.91
+72 thru 76	Intermediate Fix Identifier (5)	5.13
+77 thru 78	ICAO Code (2)	5.14
+79	Section Code (1)	5.4
+80	Subsection Code (1)	5.5
+81 thru 83	Intermediate Distance (3)	5.231
+84	Fix Related Transition Code (1)	5.241
+85 thru 89	Intermediate Fix Identifier (5)	5.13
+90 thru 91	ICAO Code (2)	5.14
+92	Section Code (1)	5.4
+93	Subsection Code (1)	5.5
+94 thru 96	Intermediate Distance (3)	5.231
+97	Fix Related Transition Code (1)	5.241
+98 thru 102	Intermediate Fix Identifier (5)	5.13
+103 thru 104	ICAO Code (2)	5.14
+105	Section Code (1)	5.4
+106	Subsection Code (1)	5.5
+107 thru 109	Intermediate Distance (3)	5.231
+110	Fix Related Transition Code (1)	5.241
+111 thru 115	Intermediate Fix Identifier (5)	5.13
+116 thru 117	ICAO Code (2)	5.14
+118	Section Code (1)	5.4
+119	Subsection Code (1)	5.5
+120 thru 122	Intermediate Distance (3)	5.231
+123	Fix Related Transition Code (1)	5.241
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 69	Fields as on Primary Records	
+70	Continuation Number (1)	5.16
+71	Application Type (1)	5.91
+72	Time Code (1)	5.131
+73	Time Indicator (1)	5.138
+74 thru 83	Time of Operation (10)	5.195
+84 thru 93	Time of Operation (10)	5.195
+94 thru 103	Time of Operation (10)	5.195
+104 thru 113	Time of Operation (10)	5.195
+114 thru 123	Time of Operation (10)	5.195
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

@@ -1,0 +1,117 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 10	Airport ICAO Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Blank (spacing) (1)	
+14 thru 17	VOR Identifier (4)	5.33
+18 thru 19	Blank (Spacing) (2)	
+20 thru 21	ICAO Code (2)	5.14
+22	Continuation Record No. (1)	5.16
+23 thru 27	VOR Frequency (5)	5.34
+28 thru 32	NAVAID Class (5)	5.35
+33 thru 41	VOR Latitude (9)	5.36
+42 thru 51	VOR Longitude (10)	5.37
+52 thru 55	DME Ident (4)	5.38
+56 thru 64	DME Latitude (9)	5.36
+65 thru 74	DME Longitude (10)	5.37
+75 thru 79	Station Declination (5)	5.66
+80 thru 84	DME Elevation (5)	5.40
+85	Figure of Merit (1)	5.149
+86 thru 87	ILS/DME Bias (2)	5.90
+88 thru 90	Frequency Protection (3)	5.150
+91 thru 93	Datum Code (3)	5.197
+94 thru 123	VOR Name (30)	5.71
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Reserved (Spacing) (1)	
+24 thru 92	Notes (69)	5.61
+93 thru 123	Reserved (expansion) (31)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Application Type (1)	5.91
+24 thru 27	Blank (Spacing) (4)	
+28 thru 32	Facility Characteristics (5)	5.93
+33 thru 74	Reserved (Spacing) (42)	
+75 thru 79	Magnetic Variation (5)	5.39
+80 thru 84	Facility Elevation (5)	5.92
+85 thru 123	Reserved (Expansion) (39)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Application Type (1)	5.91
+24 thru 27	FIR Identifier (4)	5.116
+28 thru 31	UIR Identifier (4)	5.116
+32	Start/End Indicator (1)	5.152
+33 thru 43	Start/End Date (11)	5.153
+44 thru 123	Reserved (Expansion)(80)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[5]
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23 thru 123	Fields as on Primary Records	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[6]
+
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Reserved (1)	
+24	Navaid Limitation Code (1)	5.205
+25	Component Affected Indicator (1)	5.206
+26 thru 27	Sequence Number (2)	5.12
+28 thru 29	Sector From/Sector To (2)	5.207
+30	Distance Description (1)	5.187
+31 thru 36	Distance Limitation (6)	5.208
+37	Altitude Description (1)	5.29
+38 thru 43	Altitude Limitation (6)	5.209
+44 thru 45	Sector From/Sector To (2)	5.207
+46	Distance Description (1)	5.187
+47 thru 52	Distance Limitation (6)	5.208
+53	Altitude Description (1)	5.29
+54 thru 59	Altitude Limitation (6)	5.209
+60 thru 61	Sector From/Sector To (2)	5.207
+62	Distance Description (1)	5.187
+63 thru 68	Distance Limitation (6)	5.208
+69	Altitude Description (1)	5.29
+70 thru 75	Altitude Limitation (6)	5.209
+76 thru 77	Sector From/Sector To (2)	5.207
+78	Distance Description (1)	5.187
+79 thru 84	Distance Limitation (6)	5.208
+85	Altitude Description (1)	5.29
+86 thru 91	Altitude Limitation (6)	5.209
+92 thru 93	Sector From/Sector To (2)	5.207
+94	Distance Description (1)	5.187
+95 thru 100	Distance Limitation (6)	5.208
+101	Altitude Description (1)	5.29
+102 thru 107	Altitude Limitation (6)	5.209
+108	Sequence End Indicator (1)	5.210
+109 thru 123	Blank (spacing) (15)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

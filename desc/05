@@ -1,0 +1,53 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 10	Region Code (4)	5.41 Note 1
+11 thru 12	ICAO Code (2)	5.14 Note 1
+13 thru 27	Blank (Spacing) (15)	
+28 thru 29	Duplicate Identifier (2)	5.114
+30 thru 34	Fix Identifier (5)	5.13
+35 thru 36	ICAO Code (2)	5.14
+37	Section Code (1)	5.4
+38	Subsection Code (1)	5.5
+39	Continuation Record No. (1)	5.16
+40 thru 43	Inbound Holding Course (4)	5.62
+44	Turn Direction (1)	5.63
+45 thru 47	Leg Length (3)	5.64
+48 thru 49	Leg Time (2)	5.65
+50 thru 54	Minimum Altitude (5)	5.30
+55 thru 59	Maximum Altitude (5)	5.127
+60 thru 62	Holding Speed (3)	5.175
+63 thru 65	RNP (3)	5.211
+66 thru 71	Arc Radius (6)	5.204
+72 thru 98	Reserved (Expansion) (25)	
+99 thru 123	Name (25)	5.60
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 38	Fields as on Primary Records	
+39	Continuation Record No. (1)	5.16
+40	Reserved (Spacing) (1)	
+41 thru 109	Notes (69)	5.61
+110 thru 123	Reserved (Expansion) (14)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

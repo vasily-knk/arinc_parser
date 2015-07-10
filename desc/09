@@ -1,0 +1,106 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (spacing) (1)	
+7 thru 10	Airport Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 19	SID/STAR/Approach Identifier (6)	5.9, 5.10
+20	Route Type (1)	5.7
+21 thru 25	Transition Identifier (5)	5.11
+26	Blank (spacing) (1)	
+27 thru 29	Sequence Number (3)	5.12
+30 thru 34	Fix Identifier (5)	5.13
+35 thru 36	ICAO Code (2)	5.14
+37	Section Code (1)	5.4
+38	Subsection Code (1)	5.5
+39	Continuation Number (1)	5.16
+40 thru 43	Waypoint Description Code (4)	5.17
+44	Turn Direction (1)	5.20
+45 thru 47	RNP (3)	5.211
+48 thru 49	Path and Termination (2)	5.21
+50	Turn Direction Valid (1)	5.22
+51 thru 54	Recommended Navaid (4)	5.23
+55 thru 56	ICAO Code (2)	5.14
+57 thru 62	ARC Radius (6)	5.204
+63 thru 66	Theta (4)	5.24
+67 thru 70	Rho (4)	5.25
+71 thru 74	Magnetic Course (4)	5.26
+75 thru 78	Route Distance/Holding Distance or Time (4)	5.27
+79	RECD NAV Sect on (1)	5.4
+80	RECD NAV Subsection (1)	5.5
+81 thru 82	Reserved (expansion) (2)	
+83	Altitude Description (1)	5.29
+84	ATC Indicator (1)	5.81
+85 thru 89	Altitude (5)	5.30
+90 thru 94	Altitude (5)	5.30
+95 thru 99	Transition Altitude (5)	5.53
+100 thru 102	Speed Limit (3)	5.72
+103 thru 106	Vertical Angle (4)	5.70
+107 thru 111	Center Fix (5)	5.144
+112	Multiple Code (1)	5.130
+113 thru 114	ICAO Code (2)	5.14
+115	Section Code (1)	5.4
+116	Subsection Code (1)	5.5
+117	GPS/FMS Indication (1)	5.222
+118	Blank (spacing) (1)	
+119	Apch Route Qualifier 1 (1)	5.7
+120	Apch Route Qualifier 2 (1)	5.7
+121 thru 123	Blank (spacing) (3)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 38	Fields as on Primary Records	
+39	Continuation Record Number (1)	5.16
+40	Reserved (spacing) (1)	
+41 thru 44	CAT A Decision Height (4)	5.170
+45 thru 48	CAT B Decision Height (4)	5.170
+49 thru 52	CAT C Decision Height (4)	5.170
+53 thru 56	CAT D Decision Height (4)	5.170
+57 thru 60	CAT A Minimum Descent Altitude (4)	5.171
+61 thru 64	CAT B Minimum Descent Altitude (4)	5.171
+65 thru 68	CAT C Minimum Descent Altitude (4)	5.171
+69 thru 72	CAT D Minimum Descent Altitude (4)	5.171
+73 thru 85	Blank Spacing (13)	
+86 thru 89	Procedure Category (4)	5.242
+90 thru 92	RNP (3)	5.211
+93 thru 118	Reserved (expansion) (26)	
+119	Apch Route Qualifier 1 (1)	5.7
+120	Apch Route Qualifier 2 (1)	5.7
+121 thru 123	Blank (spacing) (3)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 38	Field as on Primary	
+39	Continuation Record No. (1)	5.16
+40	Application Type (1)	5.91
+41	Start/End Indicator (1)	5.152
+42 thru 52	Start/End Date (11)	5.153
+53 thru 74	Blank (Spacing) (22)	
+75 thru 78	Leg Distance (4)	5.260
+79 thru 123	Reserved (Expansion) (45)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+1 thru 38	Fields as on Primary	
+39	Continuation Record No. (1)	5.16
+40 thru 123	Fields as on Primary Records	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

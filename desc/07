@@ -1,0 +1,81 @@
+[1]
+
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (spacing) (1)	
+7 thru 10	Airport ICAO Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 16	ATA/IATA Designator (3)	5.107
+17 thru 18	Reserved (Expansion) (2)	
+19 thru 21	Blank (spacing) (3)	
+22	Continuation Record Number (1)	5.16
+23 thru 27	Speed Limit Altitude (5)	5.73
+28 thru 30	Longest Runway (3)	5.54
+31	IFR Capability (1)	5.108
+32	Longest Runway Surface Code (1)	5.249
+33 thru 41	Airport Reference Pt. Latitude (9)	5.36
+42 thru 51	Airport Reference Pt. Longitude (10)	5.37
+52 thru 56	Magnetic Variation (5)	5.39
+57 thru 61	Airport Elevation (5)	5.55
+62 thru 64	Speed Limit (3)	5.72
+65 thru 68	Recommended Navaid (4)	5.23
+69 thru 70	ICAO Code (2)	5.14
+71 thru 75	Transitions Altitude (5)	5.53
+76 thru 80	Transition Level (5)	5.53
+81	Public/Military Indicator (1)	5.177
+82 thru 84	Time Zone (3)	5.178
+85	Daylight Indicator (1)	5.179
+86	Magnetic/True Indicator (1)	5.165
+87 thru 89	Datum Code (3)	5.197
+90 thru 93	Reserved (Expansion) (4)	
+94 thru 123	Airport Name (30)	5.71
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+1 thru 21	Field as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Reserved (Spacing) (1)	
+24 thru 92	Notes (69)	5.61
+93 thru 123	Reserved (Expansion) (59)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23	Application Type (1)	5.91
+24 thru 27	FIR Identifier (4)	5.116
+28 thru 31	UIR Identifier (4)	5.116
+32	Start/End Indicator (1)	5.152
+33 thru 43	Start/End Date (11)	5.153
+44 thru 66	Blank (spacing) (23)	
+67	Controlled A/S Indicator (1)	5.217
+68 thru 71	Controlled A/S Arpt Ident (4)	5.6
+72 thru 73	Controlled A/S Arpt ICAO (2)	5.14
+74 thru 123	Blank (spacing) (50)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Data (4)	5.32
+
+[4]
+1 thru 21	Fields as on Primary Records	
+22	Continuation Record No. (1)	5.16
+23 thru 123	Fields as on Primary Records	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

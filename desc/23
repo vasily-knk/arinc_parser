@@ -1,0 +1,76 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 10	FIR/RDO Ident (4)	5.190
+11 thru 14	FIR/UIR Address (4)	5.151
+15	Indicator (1)	5.117
+16 thru 18	Reserved (Expansion) (3)	
+19 thru 43	Remote Name (25)	5.189
+44 thru 46	Communications Type (3)	5.101
+47 thru 53	Comm Frequency (7)	5.103
+54	Guard/Transmit (1)	5.182
+55	Frequency Units (1)	5.104
+56	Continuation Record No. (1)	5.16
+57 thru 59	Service Indicator (3)	5.106
+60	Radar Service (1)	5.102
+61	Modulation (1)	5.198
+62	Signal Emission (1)	5.199
+63 thru 71	Latitude (9)	5.36
+72 thru 81	Longitude (10)	5.37
+82 thru 86	Magnetic Variation (5)	5.39
+87 thru 91	Facility Elevation (5)	5.92
+92	H24 Indicator (1)	5.181
+93	Altitude Descript. (1)	5.29
+94 thru 98	Communication Altitude (5)	5.184
+99 thru 103	Communication Altitude (5)	5.184
+104 thru 107	Remote Facility (4)	5.200
+108 thru 109	ICAO Code (2)	5.14
+110	Section Code (1)	5.4
+111	Subsection Code (1)	5.5
+112 thru 123	Reserved (Expansion) (12)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+1 thru 55	Fields as on Primary Records	
+56	Continuation Record No. (1)	5.16
+57	Blank (Spacing) (1)	
+58	Time Code (1)	5.131
+59	NOTAM (1)	5.132
+60	Time Indicator (1)	5.138
+61 thru 70	Time of Operation (10)	5.195
+71 thru 93	Reserved (Expansion) (23)	
+94 thru 123	Call Sign (30)	5.105
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 55	Fields as on Primary Records	
+56	Continuation Record No. (1)	5.16
+57 thru 60	Blank (Spacing) (4)	
+61 thru 70	Time of Operation (10)	5.195
+71 thru 80	Time of Operation (10)	5.195
+81 thru 90	Time of Operation (10)	5.195
+91 thru 100	Time of Operation (10)	5.195
+101 thru 110	Time of Operation (10)	5.195
+111 thru 120	Time of Operation (10)	5.195
+121 thru 123	Reserved (Expansion) (3)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

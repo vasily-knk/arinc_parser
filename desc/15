@@ -1,0 +1,45 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 13	Blank (Spacing) (7)	
+14 thru 17	Marker Identifier (4)	5.110
+18 thru 19	Blank (Spacing) (2)	
+20 thru 21	ICAO Code (2)	5.14
+2	Continuation Record No. (1)	5.16
+23 thru 26	Marker Code (4)	5.111
+27	Reserved (Expansion) (1)	
+28	Marker Shape (1)	5.112
+29	Marker Power (1)	5.113
+30 thru 32	Blank (Spacing) (3)	
+33 thru 41	Marker Latitude (9)	5.36
+42 thru 51	Marker Longitude (10)	5.37
+52 thru 55	Minor Axis (4)	5.100
+56 thru 74	Blank (Spacing) (19)	
+75 thru 79	Magnetic Variation (5)	5.39
+80 thru 84	Facility Elevation (5)	5.92
+85 thru 87	Datum Code (3)	5.197
+88 thru 93	Blank (Spacing) (6)	
+94 thru 123	Marker Name (30)	5.71
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

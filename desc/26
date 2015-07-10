@@ -1,0 +1,44 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 8	Geographical Ref Table ID (2)	5.218
+9	Sequence Number (1)	5.12
+10 thru 38	Geographical Entity (29)	5.219
+39	Continuation Record No (1)	5.16
+40	Reserved (1)	
+41 thru 50	Preferred Route Ident (10)	5.8
+51 thru 52	Preferred Route Use Ind (2)	5.220
+53 thru 62	Preferred Route Ident (10)	5.8
+63 thru 64	Preferred Route Use Ind (2)	5.220
+65 thru 74	Preferred Route Ident (10)	5.8
+75 thru 76	Preferred Route Use Indi (2)	5.220
+77 thru 86	Preferred Route Ident (10)	5.8
+87 thru 88	Preferred Route Use Indi (2)	5.220
+89 thru 98	Preferred Route Ident (10)	5.8
+99 thru 100	Preferred Route Use Indi (2)	5.220
+101 thru 110	Preferred Route Ident (10)	5.8
+111 thru 112	Preferred Route Use Indi (2)	5.220
+113 thru 123	Blank (spacing) (11)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

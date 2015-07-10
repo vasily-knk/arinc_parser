@@ -1,0 +1,75 @@
+[1]
+
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 8	ICAO Code (2)	5.14
+9	Restrictive Type (1)	5.128
+10 thru 19	Restrictive Airspace Designation (10)	5.129
+20	Multiple Code (1)	5.130
+21 thru 24	Sequence Number (4)	5.12
+25	Continuation Record No. (1)	5.16
+26	Level (1)	5.19
+27	Time Code (1)	5.131
+28	NOTAM (1)	5.132
+29 thru 30	Blank (Spacing) (2)	
+31 thru 32	Boundary Via (2)	5.118
+33 thru 41	Latitude (9)	5.36
+42 thru 51	Longitude (10)	5.37
+52 thru 60	Arc Origin Latitude (9)	5.36
+61 thru 70	Arc Origin Longitude (10)	5.37
+71 thru 74	Arc Distance (4)	5.119
+75 thru 78	Arc Bearing (4)	5.120
+79 thru 81	Blank (Spacing) (3)	
+82 thru 86	Lower Limit (5)	5.121
+87	Unit Indicator (1)	5.133
+88 thru 92	Upper Limit (5)	5.121
+93	Unit Indicator (1)	5.133
+94 thru 123	Restrictive Airspace Name (30)	5.126
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+1 thru 24	Fields as on Primary Records	
+25	Continuation Record No. (1)	5.16
+26	Time Code (1)	5.131
+27	NOTAM (1)	5.132
+28	Time Indicator (1)	5.138
+29 thru 38	Time of Operation (10)	5.195
+39 thru 48	Time of Operation (10)	5.195
+49 thru 58	Time of Operation (10)	5.195
+59 thru 68	Time of Operation (10)	5.195
+69 thru 78	Time of Operation (10)	5.195
+79 thru 88	Time of Operation (10)	5.195
+89 thru 98	Time of Operation (10)	5.195
+99 thru 123	Controlling Agency (25)	5.140
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+
+1 thru 24	Fields as on Primary Records	
+25	Continuation Record No. (1)	5.16
+26 thru 29	Blank (Spacing) (4)	
+30	Start/End Indicator (1)	5.152
+31 thru 41	Start/End Date (11)	5.153
+42 thru 123	Reserved (Expansion) (82)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

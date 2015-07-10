@@ -1,0 +1,83 @@
+[1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (Spacing) (1)	
+7 thru 10	Airport Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 16	Communications Type (3)	5.101
+17 thru 23	Communications Freq (7)	5.103
+24	Guard/Transmit (1)	5.182
+25	Frequency Units (1)	5.104
+26	Continuation Record No. (1)	5.16
+27 thru 29	Service Indicator (3)	5.106
+30	Radar Service (1)	5.102
+31	Modulation (1)	5.198
+32	Signal Emission (1)	5.199
+33 thru 41	Latitude (9)	5.36
+42 thru 51	Longitude (10)	5.37
+52 thru 56	Magnetic Variation (5)	5.39
+57 thru 61	Facility Elevation (5)	5.92
+62	H24 Indicator (1)	5.181
+63 thru 68	Sectorization (6)	5.183
+69	Altitude Description (1)	5.29
+70 thru 74	Communication Altitude (5)	5.184
+75 thru 79	Communication Altitude (5)	5.184
+80 thru 83	Sector Facility (4)	5.185
+84 thru 85	ICAO Code (2)	5.14
+86	Section Code (1)	5.4
+87	Subsection Code (1)	5.5
+88	Distance Description (1)	5.187
+89 thru 90	Communications Distance (2)	5.188
+91 thru 94	Remote Facility (4)	5.200
+95 thru 96	ICAO Code (2)	5.14
+97	Section Code (1)	5.4
+98	Subsection Code (1)	5.5
+99 thru 123	Call Sign (25)	5.105
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+
+[2]
+
+1 thru 25	Fields as on Primary Records	
+26	Continuation Record No. (1)	5.16
+27	Reserved Spacing (1)	
+28 thru 87	Narrative (60)	5.186
+88 thru 123	Reserved (Expansion) (36)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[3]
+1 thru 25	Fields as on Primary Records	
+26	Continuation Record No. (1)	5.16
+27	Blank (Spacing) (14)	
+28	Time Code (1)	5.131
+29	NOTAM (1)	5.132
+30	Time Indicator (1)	5.138
+31 thru 40	Time of Operation (10)	5.195
+41 thru 50	Time of Operation (10)	5.195
+51 thru 60	Time of Operation (10)	5.195
+61 thru 70	Time of Operation (10)	5.195
+71 thru 80	Time of Operation (10)	5.195
+81 thru 90	Time of Operation (10)	5.195
+91 thru 100	Time of Operation (10)	5.195
+101 thru 123	Reserved (Expansion) (23)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

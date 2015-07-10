@@ -1,0 +1,51 @@
+[1]
+
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Blank (Spacing) (1)	
+7 thru 10	Airport Identifier (4)	5.6
+11 thru 12	ICAO Code (2)	5.14
+13	Subsection Code (1)	5.5
+14 thru 17	Localizer Identifier (4)	5.44
+18 thru 20	Marker Type (3)	5.99
+21	Blank (Spacing) (1)	
+22	Continuation Record No. (1)	5.16
+23 thru 27	Locator Frequency (5)	5.34
+28 thru 32	Runway Identifier (5)	5.46
+33 thru 41	Marker Latitude (9)	5.36
+42 thru 51	Marker Longitude (10)	5.37
+52 thru 55	Minor Axis Bearing (4)	5.100
+56 thru 64	Locator Latitude (9)	5.36
+65 thru 74	Locator Longitude (10)	5.37
+75 thru 79	Locator Class (5)	5.35
+80 thru 84	Locator Facility Characteristics (5)	5.93
+85 thru 88	Locator Identifier (4)	5.33
+89 thru 90	Blank (Spacing) (2)	
+91 thru 95	Magnetic Variation (5)	5.39
+96 thru 97	Blank (Spacing) (2)	
+98 thru 102	Facility Elevation (5)	5.92
+103 thru 123	Reserved (Expansion) (21)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

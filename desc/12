@@ -1,0 +1,58 @@
+[1]
+
+1	Record Type (1)	5.2
+2 thru 4	Customer (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 11	From Airport/Fix (5)	5.75
+12	Blank (Spacing) (1)	
+13 thru 14	ICAO Code (2)	5.14
+15	Section Code (1)	5.4
+16	Subsection Code (1)	5.5
+17 thru 21	To Airport/Fix (5)	5.75
+22	Blank (Spacing) (1)	
+23 thru 24	ICAO Code (2)	5.14
+25	Section Code (1)	5.4
+26	Subsection Code (1)	5.5
+27 thru 36	Company Route ID (10)	5.76
+37 thru 39	Sequence No. (3)	5.12
+40 thru 42	VIA (3)	5.77
+43 thru 48	SID/STAR/App/Awy (6)	5.78
+49 thru 51	Area Code (3)	5.3
+52 thru 57	To Fix (6)	5.83
+58 thru 59	ICAO Code (2)	5.14
+60	Section Code (1)	5.4
+61	Subsection Code (1)	5.5
+62 thru 66	Runway Trans (5)	5.84
+67 thru 71	ENRT Trans (5)	5.85
+72	Reserved (1)	
+73 thru 77	Cruise Altitude (5)	5.86
+78 thru 81	Terminal/Alternate Airport (4)	5.87
+82 thru 83	ICAO Code (2)	5.14
+84 thru 87	Alternate Distance (4)	5.88
+88 thru 90	Cost Index (3)	5.89
+91 thru 94	Enroute Alternate Airport (4)	5.148
+95 thru 123	Reserved (Expansion) (29)	
+124 thru 128	File Record No. (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[2]
+
+
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+

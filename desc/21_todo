@@ -1,0 +1,117 @@
+[A1]
+
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 11	Route Identifier (5)	5.8
+12	Reserved (1)	Note 1
+13 thru 15	Restriction Identifier (3)	5.154
+16 thru 17	Restriction Type (2)	5.201
+18	Continuation Record No. (1)	5.16
+19 thru 23	Start Fix Identifier (5)	5.13
+24 thru 25	Start Fix ICAO Code (2)	5.14
+26	Start Fix Section Code (1)	5.4
+27	Start Fix Subsection Code (1)	5.5
+28 thru 32	End Fix Identifier (5)	5.13
+33 thru 34	End Fix ICAO Code (2)	5.14
+35	End Fix Section Code (1)	5.4
+36	End Fix Subsection Code (1)	5.5
+37	Blank (Spacing) (1)	
+38 thru 44	Start Date (7)	5.157
+45 thru 51	End Date (7)	5.157
+52 thru 120	Restriction Notes (69)	5.163
+121 thru 123	Blank (Spacing) (3)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.21
+
+[A2]
+
+1 thru 17	Fields as on Primary Records	
+18	Continuation Record No. (1)	5.16
+19 thru 51	Reserved (Expansion) (33)	
+52 thru 120	Restriction Notes (69)	5.163
+121 thru 123	Blank (Spacing) (3)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[B1]
+
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 11	Route Identifier (5)	5.8
+12	Reserved (1)	Note 1
+13 thru 15	Restriction Identifier (3)	5.154
+16 thru 17	Restriction Type (2)	5.201
+18	Continuation Record No. (1)	5.16
+19 thru 23	Start Fix Identifier (5)	5.13
+24 thru 25	Start Fix ICAO Code (2)	5.14
+26	Start Fix Section Code (1)	5.4
+27	Start Fix Subsection Code (1)	5.5
+28 thru 32	End Fix Identifier (5)	5.13
+33 thru 34	End Fix ICAO Code (2)	5.14
+35	End Fix Section Code (1)	5.4
+36	End Fix Subsection Code (1)	5.5
+37	Blank (Spacing) (1)	
+38 thru 44	Start Date (7)	5.157
+45 thru 51	End Date (7)	5.157
+52	Time Code (1)	5.131
+53	Time Indicator (1)	5.138
+54 thru 63	Time of Operation (10)	5.195
+64 thru 73	Time of Operation (10)	5.195
+74 thru 83	Time of Operation (10)	5.195
+84 thru 93	Time of Operation (10)	5.195
+94 thru 95	Cruise Table Ident (2)	5.134
+96 thru 123	Blank (Spacing) (28)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[C1]
+1	Record Type (1)	5.2
+2 thru 4	Customer/Area Code (3)	5.3
+5	Section Code (1)	5.4
+6	Subsection Code (1)	5.5
+7 thru 11	Route Identifier (5)	5.8
+12	Reserved (1)	Note 1
+13 thru 15	Restriction Identifier (3)	5.154
+16 thru 17	Restriction Type (2)	5.201
+18	Continuation Record No. (1)	5.16
+19 thru 23	Start Fix Identifier (5)	5.13
+24 thru 25	Start Fix ICAO Code (2)	5.14
+26	Start Fix Section Code (1)	5.4
+27	Start Fix Subsection Code (1)	5.5
+28 thru 32	End Fix Identifier (5)	5.13
+33 thru 34	End Fix ICAO Code (2)	5.14
+35	End Fix Section Code (1)	5.4
+36	End Fix Subsection Code (1)	5.5
+37	Blank (Spacing) (1)	
+38 thru 44	Start Date (7)	5.157
+45 thru 51	End Date (7)	5.157
+52	Time Code (1)	5.131
+53	Time Indicator (1)	5.138
+54 thru 63	Time of Operation (10)	5.195
+64 thru 73	Time of Operation (10)	5.195
+74 thru 83	Time of Operation (10)	5.195
+84 thru 93	Time of Operation (10)	5.195
+94 thru 95	Cruise Table Ident (2)	5.134
+96 thru 123	Blank (Spacing) (28)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
+
+[C2]
+
+1 thru 17	Fields as on Primary Records	
+18	Continuation Record No. (1)	5.16
+19 thru 51	Reserved (Expansion) (33)	
+52	Time Code (1)	5.131
+53	Time Indicator (1)	5.138
+54 thru 63	Time of Operation (10)	5.195
+64 thru 73	Time of Operation (10)	5.195
+74 thru 83	Time of Operation (10)	5.195
+84 thru 93	Time of Operation (10)	5.195
+94 thru 95	Cruise Table Ident (2)	5.134
+96 thru 123	Blank (Spacing) (28)	
+124 thru 128	File Record Number (5)	5.31
+129 thru 132	Cycle Date (4)	5.32
