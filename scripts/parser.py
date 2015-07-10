@@ -2,8 +2,43 @@ import re
 import os
 import json
 
+records_codes = {
+    1: ('', []),
+    2: ('VHF NAVAID', ['D']),
+    3: ('NDB NAVAID', ['DB', 'PN']),
+    4: ('Waypoint', ['EA', 'PC']),
+    5: ('Holding Pattern', ['EP']),
+    6: ('Enroute Airways', ['ER']),
+    7: ('Airport', ['PA']),
+    8: ('Airport Gate', ['PB']),
+    9: ('Airport SID/STAR/Approach', ['PD', 'PE', 'PF']),
+    10: ('Runway', ['PG']),
+    11: ('Airport and Heliport Localizer and Glide Slope', ['PI']),
+    12: ('Company Route', ['R']),
+    13: ('Airport and Heliport Localizer Marker', ['PM']),
+    14: ('Airport Communications', ['PV']),
+    15: ('Airways Marker', ['EM']),
+    16: ('Cruising Tables', ['TC']),
+    17: ('FIR/UIR', ['UF']),
+    18: ('Restrictive Airspace', ['UR']),
+    19: ('Grid MORA', ['AS']),
+    20: ('Airport MSA', ['PS']),
+    21: ('Enroute Airways Restrictive', ['EU']),
+    22: ('Airport and Heliport MLS', ['PL']),
+    23: ('Enroute Communications', ['EV']),
+    24: ('Preferred Routes', ['ET']),
+    25: ('Controlled Airspace', ['UC']),
+    26: ('Geographical Reference Table', ['TG']),
+    27: ('Flight Planning Arrival/Departure Data', ['PR']),
+    28: ('Path Point', ['PP']),
+    29: ('GLS', ['PT']),
+    30: ('Alternate', ['RA']),
+}
+
+
 class AutoJSONable:
     pass
+
 
 class FieldDesc(AutoJSONable):
     def __init__(self, min_pos, max_pos, description, format_code):
@@ -12,6 +47,14 @@ class FieldDesc(AutoJSONable):
         self.description = description
         self.format_code = format_code
 
+
+class RecordDesc(AutoJSONable):
+    def __init__(self, codes, description, conts):
+        self.codes = codes
+        self.description = description
+        self.conts = conts
+
+
 class MyJsonEncoder(json.JSONEncoder):
     def default(self, o):
         if isinstance(o, AutoJSONable):
@@ -19,12 +62,12 @@ class MyJsonEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, o)
 
 
-
 class FileParser:
     def __init__(self, record_id):
         self.__record_id = record_id
+        self.__records_desc = RecordDesc(records_codes[record_id][1], records_codes[record_id][0], dict())
+
         self.__cont_id = None
-        self.__data = dict()
 
     def __parse_empty(self, m):
         pass
@@ -40,10 +83,10 @@ class FileParser:
         format_code = None if m.group(4) is None else int(m.group(4))
         field = FieldDesc(min_pos, max_pos, description, format_code)
 
-        if not (self.__cont_id in self.__data):
-            self.__data[self.__cont_id] = []
+        if not (self.__cont_id in self.__records_desc.conts):
+            self.__records_desc.conts[self.__cont_id] = []
 
-        self.__data[self.__cont_id].append(field)
+        self.__records_desc.conts[self.__cont_id].append(field)
 
     def parse_line(self, line):
         matchers = [
@@ -66,7 +109,7 @@ class FileParser:
             raise Exception('Can\'t parse ' + line)
 
     def get_data(self):
-        return self.__data
+        return self.__records_desc
 
 
 def parse_file(record_id, file_path):
@@ -78,6 +121,7 @@ def parse_file(record_id, file_path):
             parser.parse_line(line.strip('\n'))
 
     return parser.get_data()
+
 
 if __name__ == '__main__':
     location = '../desc/'
