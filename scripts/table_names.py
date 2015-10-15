@@ -24,18 +24,42 @@ table_names = {
     'EV': 'ENROUTE_COMMUNICATIONS',
 }
 
+mapping = dict()
+
+def update_cont(desc, cont):
+    res = [None, None]
+
+    for record in cont:
+        if record['format_code'] is not None:
+            format_code = int(record['format_code'])
+            pos = int(record['min_pos'])
+
+            if format_code == 4:
+                res[0] = pos
+            elif format_code == 5:
+                res[1] = pos
+
+            if (res[0] is not None) and (res[1] is not None):
+                break
+
+    key = tuple(res)
+    if not(key in mapping):
+        mapping[key] = [desc]
+    else:
+        mapping[key] += desc
+
+
+def parse_info(info):
+    for record_id, record in info.iteritems():
+        for cont_id, cont in record['conts'].iteritems():
+            if (cont_id == '1'):
+                update_cont(tuple(record['codes']),  cont)
 
 
 with open('dump.txt', 'rt') as f:
     info = json.loads(f.read())
 
-mapping = dict()
-
-for record_id, record in info.iteritems():
-    for code in record['codes']:
-        table_name = table_names.get(code, '--undefined--')
-        mapping[int(record_id)] = (code, table_name, record['description'])
-
+parse_info(info)
 
 for key, value in mapping.iteritems():
-    print key, ':', value[0], ', ', value[1], ', ', value[2]
+    print key, ':', value

@@ -51,6 +51,7 @@ class FileParser:
     def __parse_section(self, m):
         cont_id = int(m.group(1))
         self.__cont_id = cont_id
+        print ' Cont: %d' % cont_id
 
     def __parse_record(self, m):
         min_pos = int(m.group(1))
